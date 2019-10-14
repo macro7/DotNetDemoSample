@@ -13,7 +13,7 @@ namespace DotNetSample
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new FrmAutoSize().ShowDialog();
+            new FrmAutoSizeScale().ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -53,6 +53,11 @@ namespace DotNetSample
         private void button7_Click(object sender, EventArgs e)
         {
             new FrmOpacity().Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            new FrmChangeSQLitePassWord().ShowDialog();
         }
     }
 }
