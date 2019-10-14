@@ -19,7 +19,8 @@ D:\Githb\DotNetDemoSample\bin\Debug\DevExpress.Data.v11.1.xml
 D:\Githb\DotNetDemoSample\bin\Debug\DevExpress.XtraEditors.v11.1.xml
 D:\Githb\DotNetDemoSample\obj\Debug\DotNetSample.AlterForm.resources
 D:\Githb\DotNetDemoSample\obj\Debug\DotNetSample.csproj.CopyComplete
-D:\Githb\DotNetDemoSample\bin\Debug\ThoughtWorks.QRCode.dll
 D:\Githb\DotNetDemoSample\obj\Debug\DotNetSample.csprojAssemblyReference.cache
 D:\Githb\DotNetDemoSample\obj\Debug\DotNetSample.FrmPictureBox.resources
 D:\Githb\DotNetDemoSample\obj\Debug\DotNetSample.FrmRQCode.resources
+D:\Githb\DotNetDemoSample\obj\Debug\DotNetSample.FrmListViewDemo.resources
+D:\Githb\DotNetDemoSample\obj\Debug\DotNetSample.FrmOpacity.resources

@@ -64,6 +64,12 @@
     <Compile Include="FrmDotNetFrameWorkExists.Designer.cs">
       <DependentUpon>FrmDotNetFrameWorkExists.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmListViewDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListViewDemo.Designer.cs">
+      <DependentUpon>FrmListViewDemo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,12 @@
     </Compile>
     <Compile Include="FrmAutoSize.Designer.cs">
       <DependentUpon>FrmAutoSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOpacity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOpacity.Designer.cs">
+      <DependentUpon>FrmOpacity.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmPictureBox.cs">
       <SubType>Form</SubType>
@@ -96,11 +108,17 @@
     <EmbeddedResource Include="FrmDotNetFrameWorkExists.resx">
       <DependentUpon>FrmDotNetFrameWorkExists.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmListViewDemo.resx">
+      <DependentUpon>FrmListViewDemo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAutoSize.resx">
       <DependentUpon>FrmAutoSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOpacity.resx">
+      <DependentUpon>FrmOpacity.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPictureBox.resx">
       <DependentUpon>FrmPictureBox.cs</DependentUpon>

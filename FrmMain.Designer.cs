@@ -104,8 +104,9 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(174, 71);
             this.button7.TabIndex = 0;
-            this.button7.Text = "透明窗体";
+            this.button7.Text = "透明窗体,内容不透明";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 

@@ -49,5 +49,10 @@ namespace DotNetSample
         {
             new FrmListViewDemo().ShowDialog();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            new FrmOpacity().Show();
+        }
     }
 }
