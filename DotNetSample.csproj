@@ -32,6 +32,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Utils.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Assets\repository\XtraFramework\4-源码\WK_Framework\WKWaitForm\bin\Debug\DevExpress.Utils.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,16 +47,67 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.QRCode">
+      <HintPath>..\DotNetDemoRepository\QRCoder\bin\Debug\ThoughtWorks.QRCode.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmAlter.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmAlter.Designer.cs">
+      <DependentUpon>FrmAlter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDotNetFrameWorkExists.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDotNetFrameWorkExists.Designer.cs">
+      <DependentUpon>FrmDotNetFrameWorkExists.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAutoSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAutoSize.Designer.cs">
+      <DependentUpon>FrmAutoSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPictureBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPictureBox.Designer.cs">
+      <DependentUpon>FrmPictureBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRQCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRQCode.Designer.cs">
+      <DependentUpon>FrmRQCode.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAlter.resx">
+      <DependentUpon>FrmAlter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDotNetFrameWorkExists.resx">
+      <DependentUpon>FrmDotNetFrameWorkExists.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAutoSize.resx">
+      <DependentUpon>FrmAutoSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPictureBox.resx">
+      <DependentUpon>FrmPictureBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRQCode.resx">
+      <DependentUpon>FrmRQCode.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
